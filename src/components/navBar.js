@@ -7,14 +7,11 @@ import React from 'react';
 		  const navi = useNavigation();
 		  return (
 			<View style={style_01.row}>
-			  <TouchableOpacity style={style_01.btn_button} onPress={() => { navi.navigate('Home'); }}>
-				<Text style={style_01.btn_Label}>Home</Text>
-			  </TouchableOpacity>
+			<TouchableOpacity style={style_01.btn_button} onPress={() => { navi.navigate('pokemon'); }}>
+			  <Text style={style_01.btn_Label}>pokemon</Text>
+			</TouchableOpacity>
 			  <TouchableOpacity style={style_01.btn_button} onPress={() => { navi.navigate('Details'); }}>
 				<Text style={style_01.btn_Label}>Details</Text>
-			  </TouchableOpacity>
-			  <TouchableOpacity style={style_01.btn_button} onPress={() => { navi.navigate('pokemon'); }}>
-				<Text style={style_01.btn_Label}>pokemon</Text>
 			  </TouchableOpacity>
 			</View>
 		  );

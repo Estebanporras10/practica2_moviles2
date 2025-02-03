@@ -33,7 +33,7 @@ export default StyleSheet.create({
     width: 150,
     height: 150,
     resizeMode: "contain",
-    alignSelf: "left",
+    alignSelf: "center",
   },
   title: {
     fontSize: 20,
